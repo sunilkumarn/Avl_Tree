@@ -1,0 +1,14 @@
+struct node* find_pos(int ,struct node *);
+int height(struct node* );
+int bal_fac(struct node* );
+void rotate_right(struct node* ,struct node*);
+void rotate_left(struct node*,struct node*);
+void balance(struct node *);
+void self_bal(struct node *);
+void inorder(struct node *);
+void preorder(struct node *);
+struct node* delete_replace(struct node*);
+void parent_change(struct node* ,struct node* );
+struct node* p_delete(int );
+void my_delete(int);
+struct node* create_node(struct node*,int);
